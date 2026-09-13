@@ -5,6 +5,7 @@ import uvicorn
 from fastapi import FastAPI
 from BankNotes import BankNote
 
+
 app = FastAPI()
 
 with open("best_model.pkl","rb") as pickle_in:
